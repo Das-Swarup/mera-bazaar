@@ -1,0 +1,40 @@
+.hero-content{
+    background: url("./images/Hero-Image.png") rgba(0, 0, 0, 0.589);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    height: 80vh;
+    left: 0;
+    margin: 0 !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-fs-1{
+    font-size: 5rem;
+    width: 20%;
+}
+
+.hero-cards{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-card{
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    padding: 2rem;
+    background: #f5d002;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    box-shadow: 2px 5px 20px 1px black;
+}
